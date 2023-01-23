@@ -20,16 +20,16 @@ app.use('/quake', quakeRoute);
 
 app.get('/', (req, res) => {
   return res.status(200).send({
-    maintainer: 'Renova Muhamad Reza',
-    source: 'https://github.com/renomureza/cuaca-gempa-rest-api',
+    maintainer: 'Raihan Rivana Putra',
+    source: 'Secreet',
     endpoint: {
       quake: `${BASE_URL}/quake`,
       weather: {
         province: {
-          example: `${BASE_URL}/weather/jawa-barat`,
+          example: `${BASE_URL}/weather/riau`,
         },
         city: {
-          example: `${BASE_URL}/weather/jawa-barat/bandung`,
+          example: `${BASE_URL}/weather/riau/pekanbaru`,
         },
       },
     },
