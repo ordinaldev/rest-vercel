@@ -21,7 +21,7 @@ app.use('/quake', quakeRoute);
 app.get('/', (req, res) => {
   return res.status(200).send({
     maintainer: 'Raihan Rivana Putra',
-    source: 'Secreet',
+    source: 'BMKG',
     endpoint: {
       quake: `${BASE_URL}/quake`,
       weather: {
